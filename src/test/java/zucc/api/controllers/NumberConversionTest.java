@@ -15,9 +15,9 @@ class NumberConversionTest {
   }
 
   @Test
-  public void test() {
+  void test() {
     NumberConversion numberConversion = new NumberConversion();
 
-    assertEquals(numberConversion.conversionNumber(), "Ola mundo");
+    assertEquals("Ola mundo", numberConversion.conversionNumber());
   }
 }
