@@ -5,10 +5,11 @@ package zucc.api.controllers;
  *
  * @author Antônio Lima Jr
  */
-
 public class NumberConversion {
 
-  public String ConversionNumber() {
-    return "Ola mundo";
+  public String conversionNumber() {
+    String a = "";
+    a += "Ola mundo";
+    return a;
   }
 }

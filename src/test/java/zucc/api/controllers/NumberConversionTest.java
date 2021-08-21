@@ -18,6 +18,6 @@ class NumberConversionTest {
   public void test() {
     NumberConversion numberConversion = new NumberConversion();
 
-    assertEquals(numberConversion.ConversionNumber(), "Ola mundo");
+    assertEquals(numberConversion.conversionNumber(), "Ola mundo");
   }
 }
