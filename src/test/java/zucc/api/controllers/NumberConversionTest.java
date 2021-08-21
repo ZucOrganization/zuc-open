@@ -1,6 +1,8 @@
 package zucc.api.controllers;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Class Description.
@@ -9,4 +11,13 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class NumberConversionTest {
 
+  public NumberConversionTest() {
+  }
+
+  @Test
+  public void test() {
+    NumberConversion numberConversion = new NumberConversion();
+
+    assertEquals(numberConversion.ConversionNumber(), "Ola mundo");
+  }
 }
