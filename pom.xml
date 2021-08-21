@@ -27,7 +27,8 @@
         <sonar.coverage.exclusions>
             **/domain/**/*,
             **/pojos/*,
-            pom.xml
+            pom.xml,
+            **/ApiApplication.java
         </sonar.coverage.exclusions>
     </properties>
     <dependencies>
